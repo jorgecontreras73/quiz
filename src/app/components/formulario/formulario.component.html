@@ -1,1 +1,54 @@
-<p>formulario works!</p>
+<div id="form">
+    <h4>Región</h4>
+    <mat-form-field appearance="fill">
+        <select matNativeControl required>
+            <option value="valparaiso">Valparaíso</option>
+            <option value="metropolitana">Metropolitana</option>
+            <option value="biobio">Bio Bio</option>
+            <option value="araucania">Araucanía</option>
+        </select>
+    </mat-form-field>
+
+    <p>Estado del clima</p>
+    <div id="esta">
+        <mat-radio-group aria-label="Select an option">
+            <mat-radio-button value="1">Soleado</mat-radio-button>
+            <mat-radio-button value="2">Lluvioso</mat-radio-button>
+            <mat-radio-button value="1">Nublado</mat-radio-button>
+            <mat-radio-button value="2">Tormenta</mat-radio-button>
+        </mat-radio-group>
+    
+
+    </div>
+    
+    <h4>Día</h4>
+    <mat-form-field appearance="fill">
+        <select matNativeControl required>
+            <option value="lunes">Lunes</option>
+            <option value="martes">Martes</option>
+            <option value="miercoles">Miércoles</option>
+            <option value="jueves">Jueves</option>
+            <option value="viernes">Viernes</option>
+            <option value="sabado">Sabado</option>
+            <option value="domingo">Domingo</option>
+        </select>
+    </mat-form-field>
+      
+    <h4>Temperatura</h4>
+    <form class="example-form">
+        <mat-form-field class="example-full-width">
+          
+          <input matInput #message maxlength="256">
+        </mat-form-field>
+    </form>
+
+    <h4>Grados</h4>
+    <div id="esta">
+        <mat-radio-group aria-label="Select an option">
+        <mat-radio-button value="1">Celsius</mat-radio-button>
+        <mat-radio-button value="2">Fahrenheit</mat-radio-button>
+        </mat-radio-group>
+    </div>
+    
+    <button>Actualizar</button>
+</div>

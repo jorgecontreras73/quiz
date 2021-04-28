@@ -9,6 +9,11 @@ import { FormularioComponent } from './components/formulario/formulario.componen
 import { MetropolitanaComponent } from './components/metropolitana/metropolitana.component';
 import { BiobioComponent } from './components/biobio/biobio.component';
 import { AraucaniaComponent } from './components/araucania/araucania.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import {MatSelectModule} from '@angular/material/select';
+import {MatRadioModule} from '@angular/material/radio';
+import {MatInputModule} from '@angular/material/input';
+import {MatBottomSheetModule} from '@angular/material/bottom-sheet'; 
 
 @NgModule({
   declarations: [
@@ -22,7 +27,12 @@ import { AraucaniaComponent } from './components/araucania/araucania.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    BrowserAnimationsModule,
+    MatSelectModule,
+    MatRadioModule,
+    MatInputModule,
+    MatBottomSheetModule
   ],
   providers: [],
   bootstrap: [AppComponent]
