@@ -1,0 +1,41 @@
+img{
+    width: 150px;
+    height: 100px;
+}
+#imagen{
+    display: flex;
+}
+#palabra{
+    padding-top: 30px;
+}
+#clima{
+    display: flex;
+    justify-content: space-around;
+}
+
+#pais{
+    display: flex;
+    padding-top: 30px;
+}
+#navegador{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 1%;
+    margin-right: 8%;
+}
+
+ul{
+    display: flex;
+    list-style-type: none;
+    margin: auto;
+}
+ul button{
+    background-color: white;
+    border-color: black;
+}
+#temperatura{
+
+}
+#cf{
+    padding-bottom: 10px;
+}

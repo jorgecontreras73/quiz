@@ -1,0 +1,31 @@
+<div id="clima">
+    <div id="imagen">
+        <img src="/assets/img/clima.jpg">
+        <p id="palabra">Clima</p>
+    </div>
+    <div id="pais">
+        <p>Chile -</p>
+        <p>Valparaiso</p>
+    </div>
+    
+</div>
+<div id="navegador">
+    <div id="nave">
+        <nav>
+            <ul>
+                <button id="valparaiso"><a [routerLink]="['']" routerLinkActive="router-link-active">Valparaíso</a></button>
+                <button id="metropolitana"><a [routerLink]="['/metropolitana']" routerLinkActive="router-link-active">Metropolitana</a></button>
+                <button id="biobio"><a [routerLink]="['/biobio']" routerLinkActive="router-link-active">Bio Bio</a></button>
+                <button id="araucania"><a [routerLink]="['/araucania']" routerLinkActive="router-link-active">Araucania</a></button>
+            </ul>
+            
+        </nav>
+    </div>
+    <div id="temperatura">
+        <ul id="cf">
+            <li>Celsius C° </li>
+            <li>Fahrenheit F°</li>
+        </ul>
+    </div>
+</div>
+
